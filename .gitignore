@@ -1,0 +1,7 @@
+# macosx bash
+.DS_Store
+*~
+*.swp
+
+# don't commit private files
+private

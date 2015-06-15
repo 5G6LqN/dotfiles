@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo -v
+
+port selfupdate
+
+port install zsh
+chsh -s /bin/zsh

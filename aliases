@@ -1,0 +1,15 @@
+alias ll="ls -lias --color=auto"
+alias ..="cd .. && pwd"
+alias ...="cd ../.. && pwd"
+alias ....="cd ../../.. && pwd"
+alias .....="cd ../../../.. && pwd"
+
+alias init_pytest="export PYTHONPATH=`pwd`"
+alias fuck='eval $(thefuck $(fc -ln -1))'
+alias mv="`which mv` -iv"
+
+# Add bash aliases.
+if [ -f ~/.private_aliases ]; then
+    source ~/.private_aliases
+fi
+
