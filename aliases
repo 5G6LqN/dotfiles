@@ -1,4 +1,4 @@
-alias ll="ls -lias --color=auto"
+alias ll="ls -lias"
 alias ..="cd .. && pwd"
 alias ...="cd ../.. && pwd"
 alias ....="cd ../../.. && pwd"

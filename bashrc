@@ -11,11 +11,6 @@ if [ -f ~/.aliases ]; then
     source ~/.aliases
 fi
 
-# Import Aliases
-#ALIAS=$HOME/.alias
-#export ALIAS
-#. $ALIAS
-
 OS_NAME=$(uname -s)
 export LC_CTYPE=C
 export LANG=C
