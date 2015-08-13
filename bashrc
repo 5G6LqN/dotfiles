@@ -12,8 +12,8 @@ if [ -f ~/.aliases ]; then
 fi
 
 OS_NAME=$(uname -s)
-export LC_CTYPE=C
-export LANG=C
+export LC_ALL=de_DE.UTF-8  
+export LANG=de_DE.UTF-8
 #export PYTHONDONTWRITEBYTECODE=1
 case $OS_NAME in
     Darwin)
