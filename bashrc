@@ -27,8 +27,8 @@ if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
 fi
 
 # Android
-if [ -d "/Applications/android/adt-bundle-mac-x86_64-20140702/sdk//platform-tools" ] ; then
-      export PATH="/Applications/android/adt-bundle-mac-x86_64-20140702/sdk/platform-tools:$PATH"
+if [ -d "/Applications/android/adt-bundle-mac-x86_64-20140702/platform-tools" ] ; then
+      export PATH="/Applications/android/adt-bundle-mac-x86_64-20140702/platform-tools:$PATH"
 fi
 
 . /Users/dg/bin/django_bash_completion
@@ -98,7 +98,7 @@ export GREP_OPTIONS='--color=auto'
 
 
 #export DJANGO_SETTINGS_MODULE=project.settings
-
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 
 
 ##
