@@ -99,7 +99,7 @@ export GREP_OPTIONS='--color=auto'
 
 #export DJANGO_SETTINGS_MODULE=project.settings
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
-
+export LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN=1
 
 ##
 # Your previous /Users/dg/.bash_profile file was backed up as /Users/dg/.bash_profile.macports-saved_2014-10-19_at_21:14:54
